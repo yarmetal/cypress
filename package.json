@@ -1,0 +1,19 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Igor Davydov",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "laptop:headed": "cypress run --browser chrome --headed cypress.config.js",
+    "laptop:headless": "cypress run --browser chrome --headless cypress.config.js",
+    "mobile:headed": "cypress run --browser chrome --headed cypress.config2.js",
+    "mobile:headless": "cypress run --browser chrome --headless cypress.config2.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cypress": "^15.9.0"
+  }
+}
